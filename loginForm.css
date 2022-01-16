@@ -1,0 +1,105 @@
+.form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #413a44;
+}
+
+.form input ,.form button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.form1{
+    display: block;
+    position: relative;
+}
+
+
+.form1:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    right: 110px;
+    bottom: -10px;
+    z-index: 1;
+    background-image: linear-gradient(to bottom right, #e7e960, #3d8a2c);
+    
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70%;
+    width: 40%;
+    
+}
+
+.form-inner{
+    position: relative;
+    display: block;
+    background-color: #FFF;
+    padding: 30PX;
+    z-index: 2;
+    height: 80%;
+    width: 50%;
+}
+
+.form-inner h1{
+    color: #888;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.form-inner .form-group{
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+}
+.form-inner label {
+    display: block;
+    color: rgb(70, 109, 32);
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+.form-inner:focus-within label{
+    color: #b8da24;
+}
+.form input{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #f8f6f6;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.form input:focus {
+    box-shadow: 0px 0px 3px rgba(14, 13, 13, 0.6);
+}
+.form-inner  input[type="submit"]{
+    display: inline-block;
+    padding:  10px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #0c0a04 50%, #2d6945 50% );
+    background-size: 200%;
+    background-position: 0%;
+    transition: 00.4s;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+.form-inner input[type="submit"]:hover{
+    background-position: 100% 0%;
+}
+

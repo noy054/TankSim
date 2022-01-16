@@ -1,0 +1,39 @@
+.turret{
+    height: 30%;
+    width: 30%;
+    /* background-color: yellow; */
+    transform: rotate(90deg);
+    padding-bottom: 140px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.lezer{
+    height: 50%;
+    width: 20%;
+    position: absolute;
+      top: 40px;
+      left: 155px;
+    transform: rotate(90deg);
+    padding-bottom: 140px;
+}
+/*.lezerr{
+  height: 50%;
+  width: 50%;
+  position: absolute;
+    top: -30px;
+    left: 35px;
+  transform: rotate(95deg);
+  padding-bottom: 140px;
+
+}
+*/
+.lezerr{
+  height: 50%;
+  width: 20%;
+  position: absolute;
+    top: 40px;
+    left: 155px;
+  transform: rotate(90deg);
+  padding-bottom: 140px;
+}
